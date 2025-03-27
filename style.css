@@ -1,0 +1,115 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#config {
+  margin-bottom: 20px;
+}
+
+#config label {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+#config input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  font-size: 1em;
+  margin-right: 20px;
+}
+
+#config input[type="color"] {
+  width: 50px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+#config button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+#config button:hover {
+  background-color: #555;
+}
+
+#game {
+  display: grid;
+  gap: 10px;
+  background-color: #1e90ff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cell {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  border: 2px solid #1e90ff;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.cell[data-player="1"] {
+  background-color: var(--player1-color, #ff4444);
+} */
+
+ .cell[data-player="2"] {
+  background-color: var(--player2-color, #ffd700);
+}
+
+#turn-indicator {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+#victory-message {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #1b28df;
+}
+
+#controls {
+  margin-top: 20px;
+}
+
+#controls button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+  background-color: #555;
+}

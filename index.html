@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puissance 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Puissance 4</h1>
+
+    <div id="config">
+        <label for="rows">Nombre de lignes :</label>
+        <input type="number" id="rows" min="4" max="10" value="6">
+        <label for="cols">Nombre de colonnes :</label>
+        <input type="number" id="cols" min="4" max="10" value="7">
+        <label for="player1-color">Couleur du joueur 1 :</label>
+        <input type="color" id="player1-color" value="#ff4444">
+        <label for="player2-color">Couleur du joueur 2 :</label>
+        <input type="color" id="player2-color" value="#ffd700">
+        <button id="start-game">Commencer la partie</button>
+    </div>
+
+    <div id="game"></div>
+    <div id="turn-indicator"></div>
+    <div id="victory-message"></div>
+    <div id="controls">
+        <button id="reset-game">Nouvelle partie</button>
+        <button id="reset-score">Réinitialiser le score</button>
+        <button id="reset-settings">Réinitialiser les paramètres</button>
+    </div>
+
+    <script src="./lib/main.js"></script>
+</body>
+</html>
