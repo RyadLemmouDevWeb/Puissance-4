@@ -26,6 +26,6 @@ Jeu de Puissance 4 implémenté en JavaScript moderne avec des classes ES6, tran
 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/votre-utilisateur/puissance4.git
+git clone git@github.com:RyadLemmouDevWeb/Puissance-4.git
 cd puissance4
 ```
